@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="script.js" defer></script>
+    <title>QUIZ INPUTAN JAVASCRIPT</title>
+    
+</head>
+<body>
+    
+    <div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8"><h1>Silahkan Isi Data</h1>
+        <form name="datapribadi" method="" action="#">
+    <div class="form-group">
+        <label for="exampleFormControlInput">Nama</label>
+        <input type="text" class="form-control mb-3" name="nama" id="nama" placeholder="Silahkan Isi Nama Asli">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Alamat</label>
+        <textarea class="form-control mb-3" name="alamat" id="alamat" placeholder="Silahkan Isi Alamat" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Stasiun Asal</label>
+        <select class="form-control mb-3" name="asal" id="asal">
+        <option>Malang</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect2">Stasiun Tujuan</label>
+        <select class="form-control mb-3" name="tujuan" id="tujuan">
+        <option>Blitar</option>
+        <option>Tulungagung</option>
+        <option>Kediri</option>
+        <option>Madiun</option>
+        <option>Solo</option>
+        <option>Yogyakarta</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormDate">Tanggal Berangkat</label>
+        <input type="date" class="form-control mb-3" name="tanggal" id="tanggal">
+    </div>
+    <div class=""form-group">
+        <button type="button" onClick='inputdata()' class="btn btn-success">Submit</button>
+        <button type="reset" class="btn btn-warning">Batal</button>
+    </div>
+    <div class="row">
+        <table class="table" id="databel">
+        <thead>
+            <tr>
+            <th scope="col">Nama</th>
+            <th scope="col">Alamat</th>
+            <th scope="col">Stasiun Asal</th>
+            <th scope="col">Stasiun Tujuan</th>
+            <th scope="col">Tanggal Berangkat</th>
+            </tr>
+        </thead>
+        </table>  
+    </div>
+    </form>
+        </div>          
+        <div class="col-md-2"></div>
+    </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
